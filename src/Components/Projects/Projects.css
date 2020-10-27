@@ -12,12 +12,18 @@
 .projects__card {
     display: flex;
     flex-direction: column;
+    flex: 50%;
     max-width: 600px;
     text-align: center;
     padding: 15px;
-    margin: 10px;
+    margin: 15px;
     box-shadow: 0px 0px 20px 5px grey;
     min-height: 550px;
+    transition: transform 0.2s;
+}
+
+.projects__card:hover {
+    transform: scale(1.1);
 }
 
 .projects__title {

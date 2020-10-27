@@ -9,10 +9,9 @@ function Home() {
         <div className="home">
             <div className="home__header">
                 <ScrollAnimation
-                    duration={3}
+                    duration={2}
                     animateIn="bounceInUp"
                     initiallyVisible={true}
-                    animateOnce={true}
                 >
                     <h1>In This World, Creations Are Limitless</h1>
                 </ScrollAnimation>
