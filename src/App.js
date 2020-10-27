@@ -1,9 +1,9 @@
 import LosPelletsImage from './Components/Assets/Images/LosPellets.png';
 import MoodifiImage from './Components/Assets/Images/Moodifi.png';
 import WeatherImage from './Components/Assets/Images/weatherDashboard.png';
-import Project1Image from './Components/Assets/Images/Project1.png';
+import GoogleBookImage from './Components/Assets/Images/GoogleSearch.png';
 import WorkDayImage from './Components/Assets/Images/workDayScheduler.png';
-import MyTeamImage from './Components/Assets/Images/MyTeam.png';
+import EmployeeImage from './Components/Assets/Images/EmployeeDirectory.png';
 
 import Home from './Components/Home/Home';
 import CurrentProject from './Components/CurrentProject/CurrentProject';
@@ -20,14 +20,14 @@ function App() {
                 <Projects
                     title="Moodifi"
                     image={MoodifiImage}
-                    link=""
-                    github=""
+                    link="https://shrouded-chamber-97830.herokuapp.com/"
+                    github="https://github.com/arod1207/Moodifi"
                 />
                 <Projects
                     title="Los Pellets Guapos"
                     image={LosPelletsImage}
-                    link=""
-                    github=""
+                    link="http://los-pellets-guapos.herokuapp.com/"
+                    github="https://github.com/arod1207/Los-Pellets-Guapos"
                 />
                 <Projects
                     title="Weather App"
@@ -36,22 +36,22 @@ function App() {
                     github="https://github.com/arod1207/Weather-Dashboard"
                 />
                 <Projects
-                    title="Covid Flight Tracker"
-                    image={Project1Image}
-                    link=""
-                    github=""
+                    title="Google Book Store"
+                    image={GoogleBookImage}
+                    link="https://google-book-search-w-react.herokuapp.com/"
+                    github="https://github.com/arod1207/Google-Book-Search"
                 />
                 <Projects
                     title="Work Day Scheduler"
                     image={WorkDayImage}
-                    link=""
-                    github=""
+                    link="https://arod1207.github.io/Work-Day-Scheduler/"
+                    github="https://github.com/arod1207/Work-Day-Scheduler"
                 />
                 <Projects
                     title="Team Generator"
-                    image={MyTeamImage}
-                    link=""
-                    github=""
+                    image={EmployeeImage}
+                    link="https://frozen-badlands-93210.herokuapp.com/"
+                    github="https://github.com/arod1207/HW-19-Employee-Directory"
                 />
             </div>
         </div>
