@@ -9,7 +9,9 @@ import RestaurantImage from '../Assets/Images/Restaurant-app.png';
 function CurrentProject({ link, github }) {
     return (
         <div className="currentProject">
-            <div className="currentProject__header">Latest Project</div>
+            <div className="currentProject__header">
+                <h2>Latest Project</h2>
+            </div>
             <ScrollAnimation
                 animateIn="fadeIn"
                 initiallyVisible={false}
@@ -41,7 +43,9 @@ function CurrentProject({ link, github }) {
                     </div>
                 </div>
             </ScrollAnimation>
-            <div className="other__projects">Other Projects</div>
+            <div className="other__projects">
+                <h2>Other Projects</h2>
+            </div>
         </div>
     );
 }

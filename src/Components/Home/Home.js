@@ -12,7 +12,6 @@ function Home() {
                     duration={3}
                     animateIn="bounceInUp"
                     initiallyVisible={true}
-                    // animatePreScroll={false}
                     animateOnce={true}
                 >
                     <h1>In This World, Creations Are Limitless</h1>
