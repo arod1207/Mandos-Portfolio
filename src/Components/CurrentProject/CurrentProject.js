@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
 import './CurrentProject.css';
 
 import RestaurantImage from '../Assets/Images/Restaurant-app.png';
@@ -28,12 +26,12 @@ function CurrentProject({ link, github }) {
                         <img src={RestaurantImage} alt="" />
                     </div>
                     <div className="currentProject__links">
-                        <Link to="https://github.com/arod1207/Restaurant-app">
+                        <a href="https://restaurant-app-1207.web.app/">
                             <i className="fas fa-link fa-3x"></i>
-                        </Link>
-                        <Link to="https://github.com/arod1207/Restaurant-app">
+                        </a>
+                        <a href="https://github.com/arod1207/Restaurant-app">
                             <i className="fab fa-github fa-3x"></i>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

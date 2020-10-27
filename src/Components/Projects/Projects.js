@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
 import './Projects.css';
 
 function Projects({ title, image, link, github }) {
@@ -13,12 +11,12 @@ function Projects({ title, image, link, github }) {
                     <img src={image} alt="" />
                 </div>
                 <div className="projects__links">
-                    <Link to={link}>
+                    <a href={link}>
                         <i className="fas fa-link fa-3x"></i>
-                    </Link>
-                    <Link to={github}>
+                    </a>
+                    <a href={github}>
                         <i className="fab fa-github fa-3x"></i>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>
