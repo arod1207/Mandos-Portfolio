@@ -42,10 +42,11 @@
 .currentProject__title {
     font-size: 2em;
     color: black;
+    padding: 5px;
 }
 
 .currentProject__desc {
-    font-size: 2em;
+    font-size: 18px;
 }
 
 .currentProject__Right {
