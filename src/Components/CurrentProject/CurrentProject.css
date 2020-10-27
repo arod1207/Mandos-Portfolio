@@ -41,3 +41,11 @@
     justify-content: space-around;
     margin: 10px;
 }
+
+.fa-link:before {
+    color: black;
+}
+
+.fa-github:before {
+    color: black;
+}
