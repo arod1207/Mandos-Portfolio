@@ -1,0 +1,28 @@
+.projects__header {
+    font-size: 3em;
+}
+
+.projects__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px 5px grey;
+}
+
+.projects__title {
+    font-size: 2em;
+}
+
+.projects__image > img {
+    max-width: 500px;
+}
+
+.projects__links {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+}
