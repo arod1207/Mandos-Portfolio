@@ -1,0 +1,9 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.home__header {
+    font-size: 3em;
+}
