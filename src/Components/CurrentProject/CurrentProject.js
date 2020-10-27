@@ -35,6 +35,7 @@ function CurrentProject({ link, github }) {
                     </div>
                 </div>
             </div>
+            <div className="other__projects">Other Projects</div>
         </div>
     );
 }

@@ -5,4 +5,9 @@
 
 .home__header {
     font-size: 3em;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }

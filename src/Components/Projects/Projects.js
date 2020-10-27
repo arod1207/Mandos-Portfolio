@@ -12,10 +12,10 @@ function Projects({ title, image, link, github }) {
                 </div>
                 <div className="projects__links">
                     <a href={link}>
-                        <i className="fas fa-link fa-3x"></i>
+                        <i className="fas fa-link fa-3x projects"></i>
                     </a>
                     <a href={github}>
-                        <i className="fab fa-github fa-3x"></i>
+                        <i className="fab fa-github fa-3x projects"></i>
                     </a>
                 </div>
             </div>
