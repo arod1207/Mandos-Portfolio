@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Projects.css';
 
-function Projects({ title, image, link, github }) {
+function Projects({ title, image, description, link, github }) {
     return (
         <div className="projects">
             <div className="projects__card">
@@ -10,6 +10,7 @@ function Projects({ title, image, link, github }) {
                 <div className="projects__image">
                     <img src={image} alt="" />
                 </div>
+                <div className="projects__desc">{description}</div>
                 <div className="projects__links">
                     <a href={link}>
                         <i className="fas fa-link fa-3x projects"></i>

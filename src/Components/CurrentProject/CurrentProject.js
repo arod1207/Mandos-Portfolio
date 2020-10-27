@@ -14,11 +14,9 @@ function CurrentProject({ link, github }) {
                         Resaurant E-Commerce
                     </div>
                     <div className="currentProject__desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Corrupti hic illo quaerat eum tenetur amet
-                        provident praesentium mollitia quo nisi alias ea harum
-                        molestias, asperiores blanditiis quod nostrum debitis
-                        distinctio?
+                        It may not be Amazon, but it is an e-commerce site built
+                        using React.js and Firebase. This was my first attempt
+                        using Firebase.
                     </div>
                 </div>
                 <div className="currentProject__Right">

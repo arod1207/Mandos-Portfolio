@@ -17,7 +17,7 @@
     padding: 15px;
     margin: 10px;
     box-shadow: 0px 0px 20px 5px grey;
-    max-height: 400px;
+    max-height: 650px;
 }
 
 .projects__title {
@@ -26,6 +26,11 @@
 
 .projects__image > img {
     max-width: 500px;
+}
+
+.projects__desc {
+    color: white;
+    padding: 10px;
 }
 
 .projects__links {
