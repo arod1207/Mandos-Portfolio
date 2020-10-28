@@ -4,21 +4,15 @@
     background-color: black;
 }
 
-.projects__header {
-    font-size: 3em;
-    color: red;
-}
-
 .projects__card {
     display: flex;
     flex-direction: column;
-    flex: 50%;
     max-width: 600px;
     text-align: center;
     padding: 15px;
     margin: 15px;
     box-shadow: 0px 0px 20px 5px grey;
-    min-height: 550px;
+    min-height: 575px;
     transition: transform 0.2s;
 }
 
@@ -56,4 +50,20 @@
 .projects .fa-github:after {
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .projects__card {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        text-align: center;
+        box-shadow: 0px 0px 20px 5px grey;
+        min-height: 400px;
+        transition: transform 0.2s;
+    }
+
+    .projects__image > img {
+        max-width: 250px;
+    }
 }
