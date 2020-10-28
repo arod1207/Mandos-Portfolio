@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -30,8 +31,20 @@ function ContactMe() {
                         </a>
                     </p>
                 </div>
-                <div className="contactMe__PhoneNumber contactMe__options ">
+                <div className="contactMe__PhoneNumber contactMe__options">
                     (210)999-1191
+                </div>
+                <div className="contactMe__Button contactMe__options">
+                    <Link to="/">
+                        <ScrollAnimation
+                            duration={3}
+                            delay={2000}
+                            animateIn="fadeIn"
+                            initiallyVisible={false}
+                        >
+                            <h2>Return Home</h2>
+                        </ScrollAnimation>
+                    </Link>
                 </div>
             </div>
         </div>

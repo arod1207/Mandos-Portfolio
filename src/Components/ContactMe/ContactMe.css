@@ -22,6 +22,11 @@
 .contactMe__options {
     font-size: 2em;
     line-height: 1.5;
+    margin: 3px;
+}
+
+a:visited {
+    color: black;
 }
 
 .fa-linkedin {
