@@ -12,6 +12,7 @@ import Home from './Components/Home/Home';
 import CurrentProject from './Components/CurrentProject/CurrentProject';
 import Projects from './Components/Projects/Projects';
 import ContactMe from './Components/ContactMe/ContactMe';
+import NavBar from './Components/NavBar/NavBar';
 
 import './App.css';
 
@@ -70,6 +71,7 @@ function App() {
                                 description="A react app that employees can use to view non-sensitive data about other employees. Names can also be sorted by alphabetical order."
                             />
                         </div>
+                        <NavBar />
                     </Route>
                 </Switch>
             </Router>
