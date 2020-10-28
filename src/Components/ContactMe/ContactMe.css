@@ -1,0 +1,33 @@
+.contactMe {
+    height: 100vh;
+    background-image: url('../Assets/Backgrounds/mail.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactMe__Header {
+    font-size: 3em;
+}
+
+.contactMe__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 90vh;
+}
+
+.contactMe__options {
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-envelope {
+    color: black;
+}
