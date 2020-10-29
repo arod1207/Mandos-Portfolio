@@ -22,6 +22,8 @@
 
 .projects__title {
     font-size: 2em;
+    color: white;
+    margin: 4px;
 }
 
 .projects__image > img {
