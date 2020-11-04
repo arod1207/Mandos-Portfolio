@@ -23,7 +23,7 @@ function CurrentProject({ link, github }) {
                         <div className="currentProject__desc">
                             WeatherFi is a progressive web app built using
                             React. The user can view the current weather along
-                            with a 3 day forcast.
+                            with a 3 day forecast.
                         </div>
                     </div>
                     <div className="currentProject__Right">
