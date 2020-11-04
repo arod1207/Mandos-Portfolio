@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import './CurrentProject.css';
 
-import RestaurantImage from '../Assets/Images/Restaurant-app.png';
+import WeatherFi from '../Assets/Images/WeatherFi.png';
 
 function CurrentProject({ link, github }) {
     return (
@@ -19,24 +19,22 @@ function CurrentProject({ link, github }) {
             >
                 <div className="currentProject__wrapper">
                     <div className="currentProject__Left">
-                        <div className="currentProject__title">
-                            Restaurant Order App
-                        </div>
+                        <div className="currentProject__title">WeatherFi</div>
                         <div className="currentProject__desc">
-                            It may not be Amazon, but it is an e-commerce site
-                            built using React.js and Firebase. This was my first
-                            attempt using Firebase. Check it out!
+                            WeatherFi is a progressive web app built using
+                            React. The user can view the current weather along
+                            with a 3 day forcast.
                         </div>
                     </div>
                     <div className="currentProject__Right">
                         <div className="currentProject__image">
-                            <img src={RestaurantImage} alt="" />
+                            <img src={WeatherFi} alt="" />
                         </div>
                         <div className="currentProject__links">
-                            <a href="https://restaurant-app-1207.web.app/">
+                            <a href="https://react-weatherfi.netlify.app//">
                                 <i className="fas fa-link fa-3x"></i>
                             </a>
-                            <a href="https://github.com/arod1207/Restaurant-app">
+                            <a href="https://github.com/arod1207/react-weather-app">
                                 <i className="fab fa-github fa-3x"></i>
                             </a>
                         </div>
