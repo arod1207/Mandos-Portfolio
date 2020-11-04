@@ -7,6 +7,7 @@ import WeatherImage from './Components/Assets/Images/weatherDashboard.png';
 import GoogleBookImage from './Components/Assets/Images/GoogleSearch.png';
 import WorkDayImage from './Components/Assets/Images/workDayScheduler.png';
 import EmployeeImage from './Components/Assets/Images/EmployeeDirectory.png';
+import Restaurant from './Components/Assets/Images/Restaurant-app.png';
 
 import Home from './Components/Home/Home';
 import CurrentProject from './Components/CurrentProject/CurrentProject';
@@ -28,6 +29,13 @@ function App() {
                         <Home />
                         <CurrentProject />
                         <div className="projects">
+                            <Projects
+                                title="Restaurant App"
+                                image={Restaurant}
+                                link="https://restaurant-app-1207.web.app/"
+                                github="https://github.com/arod1207/Restaurant-app"
+                                description="It may not be Amazon, but it is an e-commerce site built using React.js and Firebase. This was my first attempt using Firebase."
+                            />
                             <Projects
                                 title="Moodifi"
                                 image={MoodifiImage}
